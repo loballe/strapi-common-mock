@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/agro-nifs",
+      "handler": "agro-nif.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agro-nifs/:slug",
+      "handler": "agro-nif.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agro-nifs/count",
+      "handler": "agro-nif.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agro-nifs/:id",
+      "handler": "agro-nif.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/agro-nifs",
+      "handler": "agro-nif.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/agro-nifs/:id",
+      "handler": "agro-nif.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/agro-nifs/:id",
+      "handler": "agro-nif.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
