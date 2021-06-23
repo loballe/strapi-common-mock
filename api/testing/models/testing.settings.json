@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testings",
+  "info": {
+    "name": "testing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "texto"
+    }
+  }
+}
